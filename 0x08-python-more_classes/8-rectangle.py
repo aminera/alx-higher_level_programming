@@ -113,8 +113,7 @@ class Rectangle:
             __height (int): vertical dimension of rectangle
 
         Returns:
-            0 if either attribute is 0, or the perimeter: (__width * 2) +
-        (__height * 2).
+            0 if either attribute is 0, or the perimeter: (__width * 2) + (__height * 2).
 
         """
         if self.__width is 0 or self.__height is 0:
@@ -132,8 +131,7 @@ class Rectangle:
             str (str): string to constructed for return
 
         Returns:
-            str (str): string suitable for printing rectangle (final newline
-                omitted)
+            str (str): string suitable for printing rectangle (final newline omitted)
 
         """
         str = ""
