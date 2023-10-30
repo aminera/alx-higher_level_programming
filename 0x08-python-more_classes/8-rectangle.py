@@ -113,7 +113,8 @@ class Rectangle:
             __height (int): vertical dimension of rectangle
 
         Returns:
-            0 if either attribute is 0, or the perimeter: (__width * 2) + (__height * 2).
+            0 if either attribute is 0, or the perimeter: (__width * 2)
+            + (__height * 2).
 
         """
         if self.__width is 0 or self.__height is 0:
