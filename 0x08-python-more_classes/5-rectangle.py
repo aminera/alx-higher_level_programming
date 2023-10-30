@@ -153,5 +153,4 @@ class Rectangle:
         """Prints message upon deletion of instance.
 
         """
-        print('Bye rectangle...')
-        
+        print('Bye rectangle...')        
